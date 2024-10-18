@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+}
+
+.reviews-section {
+  background-color: #fbfbfb;
+  padding: 100px 0px;
+}
+
+.section-title {
+  color: #141414;
+}
+
+.reviews-custom {
+  color: #576f35;
+}
+.reviews-text {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.reviews-list {
+  justify-content: center;
+  display: flex;
+  gap: 0 25px;
+}
+.reviews-item {
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  padding: 20px;
+}
+.reviews-item-png {
+  color: aqua;
+}
