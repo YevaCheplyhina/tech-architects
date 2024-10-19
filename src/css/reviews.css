@@ -9,6 +9,11 @@
   max-width: 553px;
   margin-bottom: 50px;
 }
+@media screen and (min-width: 768px) {
+  .reviews-content {
+    max-width: 335px;
+  }
+}
 
 .reviews-section-title {
   font-weight: 600;
@@ -47,13 +52,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .reviews-png {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-} */
 
 .reviews-title {
   padding-bottom: 8px;
