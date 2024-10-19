@@ -41,15 +41,21 @@
   height: 258px;
 }
 
-.reviews-png {
+.reviews-item-png {
+  display: block;
+  margin: 0px 0px 24px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .reviews-png {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-}
+} */
 
 .reviews-title {
-  margin-top: 24px;
   padding-bottom: 8px;
   font-family: var(--font-family);
   font-weight: 600;
