@@ -23,12 +23,13 @@
 .reviews-custom {
   color: #576f35;
 }
-.reviews-text {
+.reviews-text-title {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .reviews-list {
+  margin-bottom: 50px;
   justify-content: center;
   display: flex;
   gap: 0 25px;
@@ -37,6 +38,8 @@
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
   padding: 20px;
+  width: 343px;
+  height: 258px;
 }
 .reviews-item-png {
   color: aqua;
