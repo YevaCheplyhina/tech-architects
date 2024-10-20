@@ -1,5 +1,9 @@
 /* Header */
 
+body {
+  background-color: #622133;
+}
+
 .header {
   position: absolute;
   top: 20px;
@@ -21,12 +25,10 @@
 }
 
 .logo {
-  width: 168px;
-  height: 16px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   fill: #fbfbfb;
+  gap: 4px;
 }
 
 .tablet-icon {
@@ -37,8 +39,6 @@
   background: none;
   border: none;
   cursor: pointer;
-  width: 32px;
-  height: 32px;
   margin: 0;
   padding: 0;
 }
@@ -93,8 +93,6 @@
 }
 
 .modal-icon-close {
-  width: 16px;
-  height: 16px;
   stroke: #fbfbfb;
 }
 
@@ -178,8 +176,6 @@
   }
 
   .header .container {
-    width: 100%;
-    min-width: 704px;
     padding: 0;
     height: 40px;
   }
@@ -195,11 +191,10 @@
   }
 
   .logo {
-    width: 194px;
-    height: 18px;
+    gap: 8px;
   }
 
-  .burger-btn {
+  .burger-icon {
     width: 40px;
     height: 40px;
   }
@@ -215,10 +210,10 @@
   }
 
   .modal-close-btn {
-    width: 40px;
-    height: 40px;
     top: 32px;
     right: 32px;
+    width: 40px;
+    height: 40px;
   }
 
   .modal-icon-close {
@@ -235,10 +230,6 @@
 
 /* Десктопна версія (від 1280px) */
 @media (min-width: 1280px) {
-  .header {
-    top: 52px;
-  }
-
   .header .container {
     width: 100%;
     max-width: 1080px;
