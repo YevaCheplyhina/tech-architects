@@ -1,11 +1,11 @@
 .hero-section {
     background-color: #576f35;
     padding-top: 48px;
-    padding-bottom: 40px;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), 
-    rgba(20, 20, 20, 0.2)), url(../img/hero/vgtbl_mob.jpg);
-   background-size: cover;
+    min-height: 752px;
+    background-image: url(../img/hero/vgtbl_mob.jpg);
     background-repeat: no-repeat;
+    background-position: center 382px;
+    background-size: auto;
 }
 
 .hero-header {
@@ -26,4 +26,69 @@
         color: #fbfbfb;
         max-width: 335px;
 }
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: url(../img/hero/vgtbl_mob@2x.jpg);
+        background-size: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+.hero-section {
+    padding-top: 50px;
+    min-height: 952px;
+    background-image: url(../img/hero/vgtbls_tab.jpg);
+    background-position: center 413px;
+
+}
+
+.hero-text {
+    font-size: 16px;
+        line-height: 1.25;
+        max-width: 603px;
+}
+
+.hero-header {
+    font-size: 76px;
+    max-width: 704px;
+    margin-bottom: 25px;
+}
+}
+
+@media screen and (min-width:768px) and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: url(../img/hero/vgtbls_tab@2x.jpg);
+        background-size: 768px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-header {
+        max-width: 502px;
+        margin-bottom: 128px;
+    }
+
+    .hero-text {
+        max-width: 472px;
+        margin-bottom: 50px;
+    }
+
+.hero-section {
+    min-height: 800px;
+    padding-top: 154px;
+    background-image: url(../img/hero/vgtbls_desk.jpg);
+    background-size: 650px;
+    background-position: right center;
+}
+
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+.hero-section {
+    background-image: url(../img/hero/vgtbls_desk@2x.jpg);
+}
+}
+
+
 
