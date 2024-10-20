@@ -1,9 +1,5 @@
 /* Header */
 
-body {
-  background-color: #622133;
-}
-
 .header {
   position: absolute;
   top: 20px;
@@ -94,6 +90,7 @@ body {
 
 .modal-icon-close {
   stroke: #fbfbfb;
+  fill: #fbfbfb;
 }
 
 .mobile-menu-nav {
@@ -161,7 +158,16 @@ body {
   line-height: 129%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
+  outline: none;
   color: #7a3145;
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.shop-now-btn-menu:active,
+.shop-now-btn-menu:focus {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  color: #fbfbfb;
+  background: #7a3145;
 }
 
 .is-hidden {
@@ -172,12 +178,6 @@ body {
 @media (min-width: 768px) {
   .header {
     top: 32px;
-    padding: 0 32px;
-  }
-
-  .header .container {
-    padding: 0;
-    height: 40px;
   }
 
   .mob-icon {
@@ -187,7 +187,6 @@ body {
   .tablet-icon {
     display: flex;
     stroke: #fbfbfb;
-    fill: #fbfbfb;
   }
 
   .logo {
