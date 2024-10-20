@@ -1,10 +1,13 @@
 .hero-section {
     background-color: #576f35;
-    padding-top: 48px;
-    min-height: 752px;
+}
+
+.hero-container {
+padding-top: 100px;
+    min-height: 812px;
     background-image: url(../img/hero/vgtbl_mob.jpg);
     background-repeat: no-repeat;
-    background-position: center 382px;
+    background-position: 50% 100%;
     background-size: auto;
 }
 
@@ -28,18 +31,18 @@
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .hero-section {
+    .hero-container {
         background-image: url(../img/hero/vgtbl_mob@2x.jpg);
         background-size: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
-.hero-section {
-    padding-top: 50px;
-    min-height: 952px;
+.hero-container {
+    padding-top: 122px;
+    min-height: 1024px;
     background-image: url(../img/hero/vgtbls_tab.jpg);
-    background-position: center 413px;
+    background-position: 50% 100%;
 
 }
 
@@ -57,7 +60,7 @@
 }
 
 @media screen and (min-width:768px) and (min-resolution: 192dpi) {
-    .hero-section {
+    .hero-container {
         background-image: url(../img/hero/vgtbls_tab@2x.jpg);
         background-size: 768px;
     }
@@ -74,18 +77,18 @@
         margin-bottom: 50px;
     }
 
-.hero-section {
+.hero-container {
     min-height: 800px;
-    padding-top: 154px;
+    padding-top: 238px;
     background-image: url(../img/hero/vgtbls_desk.jpg);
     background-size: 650px;
-    background-position: right center;
+    background-position: top right;
 }
 
 }
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-.hero-section {
+.hero-container {
     background-image: url(../img/hero/vgtbls_desk@2x.jpg);
 }
 }
