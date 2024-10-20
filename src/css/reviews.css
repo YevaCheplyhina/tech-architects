@@ -1,36 +1,63 @@
 .reviews-section {
   background-color: #fbfbfb;
-  padding: 100px 0px;
+  padding: 80px 20px;
 }
 
-.revi {
-  text-align: left;
-  display: block;
-  max-width: 553px;
-  margin-bottom: 50px;
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    padding: 100px 32px;
+  }
 }
+
+.reviews-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 335px;
+  margin-bottom: 40px;
+}
+
 @media screen and (min-width: 768px) {
   .reviews-content {
-    max-width: 335px;
+    max-width: 553px;
   }
 }
 
 .reviews-section-title {
+  font-family: var(--font-family);
   font-weight: 600;
-  font-size: 64px;
-  line-height: 100%;
+  font-size: 48px;
+  line-height: 104%;
   letter-spacing: -0.01em;
+  text-transform: uppercase;
   color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-title {
+    font-size: 64px;
+    line-height: 100%;
+  }
 }
 
 .reviews-custom {
   color: #576f35;
 }
+
 .reviews-text-title {
+  font-family: var(--font-family);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--text);
   line-height: 125%;
   padding-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-text-title {
+    font-size: 16px;
+    line-height: 125%;
+  }
 }
 
 .reviews-list {
@@ -38,12 +65,20 @@
   display: flex;
   gap: 0 25px;
 }
+
 .reviews-item {
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
   padding: 20px;
-  width: 343px;
-  height: 258px;
+  width: 335px;
+  height: 238px;
+}
+
+@media screen and (min-width: 375px) {
+  .reviews-item {
+    width: 343px;
+    height: 258px;
+  }
 }
 
 .reviews-item-png {
@@ -53,22 +88,50 @@
   margin-right: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .reviews-item:nth-child(2),
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
+}
+
 .reviews-title {
   padding-bottom: 8px;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 18px;
-  line-height: 110%;
+  font-size: 16px;
+  line-height: 125%;
   letter-spacing: -0.02em;
   text-align: center;
-  color: var(--text);
+  color: #040306;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-title {
+    font-size: 18px;
+    line-height: 110%;
+  }
 }
 
 .reviews-text-item {
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
+  font-size: 14px;
+  line-height: 129%;
   text-align: center;
-  color: rgba(20, 20, 20, 0.4);
+  color: rgba(4, 3, 6, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-text-item {
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(20, 20, 20, 0.4);
+  }
 }
