@@ -1,6 +1,6 @@
 .reviews-section {
   background-color: #fbfbfb;
-  padding: 80px 20px;
+  padding: 80px 0;
 }
 
 @media screen and (min-width: 1280px) {
@@ -19,10 +19,12 @@
 @media screen and (min-width: 768px) {
   .reviews-content {
     max-width: 553px;
+    margin-bottom: 50px;
   }
 }
 
 .reviews-section-title {
+  margin-bottom: 20px;
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 48px;
@@ -34,6 +36,7 @@
 
 @media screen and (min-width: 768px) {
   .reviews-section-title {
+    margin-bottom: 25px;
     font-size: 64px;
     line-height: 100%;
   }
@@ -49,8 +52,6 @@
   font-size: 14px;
   line-height: 129%;
   color: var(--text);
-  line-height: 125%;
-  padding-top: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -60,10 +61,18 @@
   }
 }
 
-.reviews-list {
-  justify-content: center;
-  display: flex;
-  gap: 25px;
+@media screen and (min-width: 768px) {
+  .reviews-list {
+    justify-content: center;
+    display: flex;
+    gap: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-list {
+    gap: 25px;
+  }
 }
 
 .reviews-item {
@@ -76,6 +85,13 @@
 @media screen and (min-width: 768px) {
   .reviews-item {
     width: 343px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-item {
+    padding: 20px;
   }
 }
 
@@ -86,7 +102,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .reviews-item:nth-child(3) {
     display: none;
   }
@@ -94,7 +110,7 @@
 
 .reviews-item-png {
   display: block;
-  margin: 0px 0px 24px 0px;
+  margin: 0 auto 24px;
   margin-left: auto;
   margin-right: auto;
 }
