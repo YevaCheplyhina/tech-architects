@@ -137,6 +137,7 @@ a {
   }
   .footer-nav-item {
     font-size: 32px;
+    margin-bottom: 0;
   }
   .contacts-adress {
     width: 215px;
@@ -205,5 +206,8 @@ a {
     justify-content: flex-start;
     flex-direction: row;
     gap: 121px;
+  }
+  .contacts-link {
+    font-size: 18px;
   }
 }
