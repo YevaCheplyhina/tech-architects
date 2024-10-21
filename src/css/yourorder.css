@@ -1,3 +1,6 @@
+a:-webkit-any-link {
+  text-decoration: none;
+}
 .your-order {
   background-color: #7a3145;
   max-width: 100%;
@@ -534,5 +537,6 @@
   }
   .your-order-social-media-list {
     max-width: 357px;
+    text-decoration: none;
   }
 }
