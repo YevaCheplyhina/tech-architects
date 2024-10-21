@@ -39,6 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function toggleMenu() {
     refs.menu.classList.toggle('is-open'); // Тоглуємо клас для відкриття/закриття меню
-    refs.openMenuBtn.classList.toggle('is-hidden'); // Тоглуємо видимість кнопки відкриття меню
   }
 });

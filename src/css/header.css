@@ -186,6 +186,10 @@
     top: 32px;
   }
 
+  .mobile-menu-container {
+    max-width: 351px;
+  }
+
   .mob-icon {
     display: none;
   }
