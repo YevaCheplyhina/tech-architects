@@ -6,6 +6,16 @@
   padding: 0;
 }
 
+.howitwork-section {
+  background: linear-gradient(to bottom, #7a3145 44.8%, #576f35 0%);
+}
+
+@media screen and (min-width: 768px) {
+  .howitwork-section {
+    background: linear-gradient(to bottom, #7a3145 54.6%, #576f35 0%);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .container-how-it-work {
     flex-direction: row;
@@ -21,7 +31,7 @@
 
 .photo-howitwork-wrapper {
   background: #7a3145;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   padding: 40px 20px;
   max-width: 375px;
@@ -96,6 +106,7 @@
   position: relative;
 
   max-width: 375px;
+  height: 76px;
 }
 
 .custom-list-howitwork li:first-child {
@@ -103,7 +114,7 @@
 }
 
 .custom-list-howitwork li:nth-child(2) {
-  padding: 17px 57px 17px 100px;
+  padding: 24px 59px 24px 100px;
 }
 
 .custom-list-howitwork li:last-child {
