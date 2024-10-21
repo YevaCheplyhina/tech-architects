@@ -9,8 +9,11 @@
 @media screen and (min-width: 1280px) {
   .container-how-it-work {
     flex-direction: row;
-    justify-content: space-around;
     padding: 0;
+  }
+
+  .howitwork-section {
+    background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
   }
 }
 
@@ -21,37 +24,29 @@
   display: flex;
   justify-content: center;
   padding: 40px 20px;
-  width: 375px;
+  max-width: 375px;
 }
 
 .img-howitwork {
   border-radius: 30px;
-  width: 335px;
-  height: 450px;
 }
 
 @media screen and (min-width: 768px) {
   .photo-howitwork-wrapper {
     padding: 100px 64px;
-    width: 768px;
-  }
-
-  .img-howitwork {
-    width: 640px;
-    height: 640px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-howitwork-wrapper {
     padding: 100px 100px;
-    width: 630px;
+    max-width: 630px;
   }
 
   .img-howitwork {
     border-radius: 30px;
-    width: 430px;
-    height: 559px;
+    max-width: 430px;
   }
 }
 
@@ -63,11 +58,11 @@
   flex-direction: column;
   justify-content: center;
   padding: 80px 20px;
-  width: 375px;
+  max-width: 375px;
 }
 
 .info-hoitwork-title {
-  width: 335px;
+  max-width: 335px;
   font-weight: 600;
   font-size: 28px;
   line-height: 28px;
@@ -82,7 +77,7 @@
 }
 
 .info-hoitwork-text {
-  width: 335px;
+  max-width: 335px;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -100,8 +95,7 @@
   border-radius: 15px;
   position: relative;
 
-  width: 335px;
-  height: 76px;
+  max-width: 375px;
 }
 
 .custom-list-howitwork li:first-child {
@@ -171,25 +165,25 @@
 @media screen and (min-width: 768px) {
   .info-howitwork-wrapper {
     padding: 100px 159px;
-    width: 768px;
+    max-width: 768px;
   }
 
   .info-hoitwork-title {
-    width: 450px;
+    max-width: 450px;
     font-size: 32px;
     line-height: 32px;
     margin-bottom: 25px;
   }
 
   .info-hoitwork-text {
-    width: 450px;
+    max-width: 450px;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 50px;
   }
 
   .custom-list-howitwork li {
-    width: 450px;
+    max-width: 450px;
   }
 
   .custom-list-howitwork li:first-child {
@@ -215,7 +209,7 @@
 @media screen and (min-width: 1280px) {
   .info-howitwork-wrapper {
     padding: 100px 100px 160px 100px;
-    width: 650px;
+    max-width: 650px;
   }
 }
 
