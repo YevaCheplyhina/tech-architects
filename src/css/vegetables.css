@@ -1,3 +1,7 @@
+.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 .title-vegetables {
   margin-bottom: 20px;
   font-weight: 600;
@@ -52,28 +56,23 @@
   width: 334px;
   height: 379px;
 }
-.container-vegetables {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 0;
-}
+
 .vegetables-list {
   display: inline-flex;
   flex-direction: column;
   row-gap: 20px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
-
   .title-vegetables-two,
   .title-vegetables {
     margin-top: 0px;
-    padding-top: 100px;
+
     margin-bottom: 50px;
   }
   .vegetables-list {
@@ -96,7 +95,7 @@
     .title-vegetables-two,
     .title-vegetables {
       margin-top: 0px;
-      padding-top: 100px;
+
       margin-bottom: 25px;
     }
   }
