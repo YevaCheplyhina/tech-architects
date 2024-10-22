@@ -1,3 +1,11 @@
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: initial;
+}
+
 a:-webkit-any-link {
   text-decoration: none;
 }
