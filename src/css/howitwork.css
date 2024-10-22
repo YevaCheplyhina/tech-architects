@@ -1,0 +1,227 @@
+/* ================== STYLES ================== */
+
+.container-how-it-work {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.howitwork-section {
+  background: linear-gradient(to bottom, #7a3145 44.8%, #576f35 0%);
+}
+
+@media screen and (min-width: 768px) {
+  .howitwork-section {
+    background: linear-gradient(to bottom, #7a3145 54.6%, #576f35 0%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-how-it-work {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .howitwork-section {
+    background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
+  }
+}
+
+/* Photo Section */
+
+.photo-howitwork-wrapper {
+  background: #7a3145;
+  display: inline-flex;
+  justify-content: center;
+  padding: 40px 20px;
+  max-width: 375px;
+}
+
+.img-howitwork {
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-howitwork-wrapper {
+    padding: 100px 64px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-howitwork-wrapper {
+    padding: 100px 100px;
+    max-width: 630px;
+  }
+
+  .img-howitwork {
+    border-radius: 30px;
+    max-width: 430px;
+  }
+}
+
+/* Info section */
+
+.info-howitwork-wrapper {
+  background: #576f35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 20px;
+  max-width: 375px;
+}
+
+.info-hoitwork-title {
+  max-width: 335px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.info-hoitwork-title-span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.info-hoitwork-text {
+  max-width: 335px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.custom-list-howitwork {
+  list-style: none;
+}
+
+.custom-list-howitwork li {
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  position: relative;
+
+  max-width: 375px;
+  height: 76px;
+}
+
+.custom-list-howitwork li:first-child {
+  padding: 17px 27px 17px 100px;
+}
+
+.custom-list-howitwork li:nth-child(2) {
+  padding: 24px 59px 24px 100px;
+}
+
+.custom-list-howitwork li:last-child {
+  padding: 24px 24px 24px 100px;
+  margin-bottom: 0;
+}
+
+.custom-list-text {
+  font-weight: 500;
+  font-size: 12px;
+
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+}
+
+.custom-list-item-span {
+  font-weight: 700;
+  color: #141414;
+}
+
+.counter-wrapper {
+  position: absolute;
+  background-color: rgba(122, 49, 69, 0.3);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  left: 24px;
+  top: 12px;
+}
+
+.custom-list-howitwork {
+  counter-reset: step-counter;
+}
+
+.custom-list-howitwork .custom-list-text::before {
+  position: absolute;
+  content: counter(step-counter);
+  counter-increment: step-counter;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+
+  background-color: #7a3145;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  left: 29px;
+  top: 17px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .info-howitwork-wrapper {
+    padding: 100px 159px;
+    max-width: 768px;
+  }
+
+  .info-hoitwork-title {
+    max-width: 450px;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 25px;
+  }
+
+  .info-hoitwork-text {
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 50px;
+  }
+
+  .custom-list-howitwork li {
+    max-width: 450px;
+  }
+
+  .custom-list-howitwork li:first-child {
+    padding: 18px 25px 18px 100px;
+  }
+
+  .custom-list-howitwork li:nth-child(2) {
+    padding: 28px 27px 28px 100px;
+  }
+
+  .custom-list-howitwork li:last-child {
+    padding: 18px 27px 18px 100px;
+  }
+
+  .custom-list-text {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.6);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .info-howitwork-wrapper {
+    padding: 100px 100px 160px 100px;
+    max-width: 650px;
+  }
+}
+
+/* ================== /STYLES ================== */
