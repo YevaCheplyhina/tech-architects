@@ -1,118 +1,115 @@
-<<<<<<< HEAD
 .vegetables {
-    padding: 80px 20px;
-  }
+  padding: 80px 20px;
+}
 
 .vegetables-title {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.vegetables-span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.vegetables-texts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #fbfbfb;
+  width: 335px;
+  margin-bottom: 40px;
+}
+
+.vegetables-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.vegetables-list {
+  background: #fbfbfb;
+  border-radius: 40px;
+  padding: 32px 26px;
+  width: 334px;
+  height: 379px;
+}
+
+.vegetables-name {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #7a3145;
+  margin-bottom: 12px;
+}
+
+.vegetables-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .vegetables {
+    padding: 100px 32px;
   }
-  
-  .vegetables-span {
-    color: rgba(251, 251, 251, 0.3);
+
+  .vegetables-title {
+    font-size: 64px;
+    width: 508px;
+    margin-bottom: 50px;
   }
-  
+
   .vegetables-texts {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.3;
-    color: #fbfbfb;
-    width: 335px;
-    margin-bottom: 40px;
+    width: 626px;
+    margin-bottom: 50px;
   }
-  
+
   .vegetables-menu {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    row-gap: 20px;
+    column-gap: 20px;
+    row-gap: 28px;
   }
-    
+
   .vegetables-list {
-    background: #fbfbfb;
-    border-radius: 40px;
-    padding: 32px 26px;
-    width: 334px;
-    height: 379px;
+    padding: 32px 30px;
+    width: 342px;
+    width: calc((100% - 20px) / 2);
   }
-  
-  .vegetables-name {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    color: #7a3145;
-    margin-bottom: 12px;
-  }
-  
-  .vegetables-text {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #141414;
-    margin-bottom: 14px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .vegetables {
-        padding: 100px 32px;
-    }
 
-    .vegetables-title {
-      font-size: 64px;
-      width: 508px;
-      margin-bottom: 50px;
-    }
-  
-    .vegetables-texts {
-      width: 626px;
-      margin-bottom: 50px;
-    }
-  
-    .vegetables-menu {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      column-gap: 20px;
-      row-gap: 28px;
-    }
-  
-    .vegetables-list {
-      padding: 32px 30px;
-      width: 342px;
-      width: calc((100% - 20px) / 2);
-    }
-  
-    .reviews-name {
-      align-items: baseline;
-    }
+  .reviews-name {
+    align-items: baseline;
   }
-  
-  @media screen and (min-width: 1280px) {
-    .vegetables {
-        padding: 100px;
-      }
+}
 
-    .vegetables-title {
-      margin-bottom: 25px;
-    }
-  
-    .vegetables-menu {
-      column-gap: 21px;
-      row-gap: 28px;
-    }
-  
-    .vegetables-list {
-      width: calc((100% - 42px) / 3); 
-    }
+@media screen and (min-width: 1280px) {
+  .vegetables {
+    padding: 100px;
   }
-  
 
+  .vegetables-title {
+    margin-bottom: 25px;
+  }
+
+  .vegetables-menu {
+    column-gap: 21px;
+    row-gap: 28px;
+  }
+
+  .vegetables-list {
+    width: calc((100% - 42px) / 3);
+  }
+}
