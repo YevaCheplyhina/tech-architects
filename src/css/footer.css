@@ -16,15 +16,15 @@
 .footer-info {
   max-width: 265px;
 }
-.icon-logo,
-.icon-logo-text,
-.icon-logo-tab,
-.icon-logo-text-tab {
+.icon-logo-footer,
+.icon-logo-text-footer,
+.icon-logo-tab-footer,
+.icon-logo-text-tab-footer {
   fill: #fbfbfb;
 }
 @media screen and (max-width: 767.9px) {
-  .icon-logo-tab,
-  .icon-logo-text-tab {
+  .icon-logo-tab-footer,
+  .icon-logo-text-tab-footer {
     display: none;
   }
 }
@@ -91,8 +91,8 @@
     padding-bottom: 32px;
     padding-top: 32px;
   }
-  .icon-logo,
-  .icon-logo-text {
+  .icon-logo-footer,
+  .icon-logo-text-footer {
     display: none;
   }
   .footer-container {
