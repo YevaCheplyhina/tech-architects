@@ -136,5 +136,5 @@
   line-height: 140%;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
-  width: 288px;
+  max-width: 288px;
 }
