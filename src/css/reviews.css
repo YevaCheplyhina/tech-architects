@@ -1,0 +1,140 @@
+.reviews-section {
+  background-color: #fbfbfb;
+  padding: 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    padding: 100px 0;
+  }
+}
+
+.reviews-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-content {
+    max-width: 553px;
+    margin-bottom: 50px;
+  }
+}
+
+.reviews-section-title {
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-title {
+    margin-bottom: 25px;
+    font-size: 64px;
+    line-height: 100%;
+  }
+}
+
+.reviews-custom {
+  color: #576f35;
+}
+
+.reviews-text-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--text);
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-text-title {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-list {
+    justify-content: center;
+    display: flex;
+    gap: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-list {
+    gap: 25px;
+  }
+}
+
+.reviews-item {
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  padding: 20px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-item {
+    width: 343px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-item {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reviews-item:nth-child(2),
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews-item:nth-child(3) {
+    display: none;
+  }
+}
+
+.reviews-item-png {
+  display: block;
+  margin: 0 auto 24px;
+}
+
+.reviews-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-title {
+    font-size: 18px;
+    line-height: 110%;
+  }
+}
+
+.reviews-text-item {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  width: 288px;
+}
